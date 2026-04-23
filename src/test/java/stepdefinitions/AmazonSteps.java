@@ -26,7 +26,7 @@ public class AmazonSteps {
         cap.setBrowserName("chrome");
 
         driver = new RemoteWebDriver(
-                new URL(" http://172.21.0.57:4444"), cap);
+                new URL("http://localhost:4444"), cap);
 
         driver.get("https://www.amazon.in");
 
