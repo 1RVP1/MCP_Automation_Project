@@ -27,9 +27,6 @@ pipeline {
     }
 
     post {
-        always {
-            archiveArtifacts artifacts: '**/target/*.log', fingerprint: true
-        }
         success {
             echo 'Build Successful ✅'
         }
