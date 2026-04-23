@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'   // Jenkins me configured Maven name
+        maven 'Maven'
     }
 
     stages {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/1RVP1/MCP_Automation_Project.git'
+                git branch: 'main', url: 'https://github.com/1RVP1/MCP_Automation_Project.git'
             }
         }
 
