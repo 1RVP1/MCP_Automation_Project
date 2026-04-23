@@ -1,0 +1,1 @@
+{"uuid":"0047d7a3-4a3d-4514-89a3-daa7989592e1","name":"Scenario: Search Product","children":["1a9a6fad-cb7d-490c-bca6-436f0a6b3836"],"befores":[],"afters":[{"name":"stepdefinitions.AmazonSteps.tearDown()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776748563358,"stop":1776748563695}],"start":1776748547140,"stop":1776748563695}

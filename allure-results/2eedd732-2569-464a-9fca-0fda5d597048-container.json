@@ -1,0 +1,1 @@
+{"uuid":"2eedd732-2569-464a-9fca-0fda5d597048","name":"Scenario: Validate Product Count","children":["5659ed94-4b11-4797-8d9a-74fc4c9c5650"],"befores":[],"afters":[{"name":"stepdefinitions.AmazonSteps.tearDown()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1776750236681,"stop":1776750237012}],"start":1776750221662,"stop":1776750237013}
